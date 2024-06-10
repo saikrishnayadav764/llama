@@ -26,7 +26,7 @@ function HomePage() {
             color: "#7e22ce",
             textAlign: "center",
             marginBottom: "5px",
-          }} className="homeheaderh">Create a New Project</h1>
+          }} >Create a New Project</h1>
           {/* <img draggable="false" className="sitting" src="./sitting.png" alt="sitting" /> */}
           <svg
           width="300"
