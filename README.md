@@ -1,81 +1,76 @@
+# LLAMA Mongo Server & AWS Server
 
+Welcome to the LLAMA Mongo Server and AWS Server! These servers provide functionality for transcribing audio from YouTube videos and encrypting/decrypting data using AES encryption, as well as interfacing with AWS services.
 
-# LLAMA Mongo Server
+## LLAMA Mongo Server
 
-Welcome to the LLAMA Mongo Server! This server provides backend functionality for the LLAMA application, allowing users to manage project entries. 
+The LLAMA Mongo Server handles the transcription of audio from YouTube videos and provides endpoints for managing transcriptions.
 
-## Table of Contents
-
-- [Setup](#setup)
-- [Endpoints](#endpoints)
-  - [Create Entry](#create-entry)
-  - [Get All Entries](#get-all-entries)
-  - [Get Entry by ID](#get-entry-by-id)
-- [Error Handling](#error-handling)
-- [Deployment](#deployment)
-
-## Setup
+### Setup
 
 1. **Clone Repository**: 
-   - Clone this repository to your local machine using `git clone https://github.com/saikrishnayadav764/llanmab.git`.
-
+   - Clone the LLAMA Mongo Server repository to your local machine: `git clone https://github.com/saikrishnayadav764/llanmab.git`.
 2. **Navigate to Directory**: 
    - Navigate to the project directory: `cd llanmab`.
-
 3. **Install Dependencies**: 
    - Install dependencies by running `npm install`.
-
 4. **Set Environment Variables**: 
    - Create a `.env` file based on `.env.example` and provide necessary values.
-
 5. **Start Server**: 
    - Start the server by running `npm start`.
 
-## Endpoints
+### Endpoints
 
-### Create Entry
+#### Transcribe
 
-- **URL**: `/api/projects`
+- **URL**: `/transcribe`
 - **Method**: `POST`
-- **Description**: Creates a new project entry.
+- **Description**: Transcribes audio from a YouTube video.
 - **Request Body**:
   ```json
   {
-    "title": "Example Project"
+    "name": "Example Transcription",
+    "link": "YouTube Video Link",
+    "source": "Youtube"
   }
   ```
 - **Response**:
-  - `201 Created`: Successful creation of the project entry.
-  - `400 Bad Request`: Invalid request body or missing required fields.
+  - `200 OK`: Returns the transcription URL.
+  - `400 Bad Request`: Invalid request or unsupported source.
   - `500 Server Error`: Internal server error.
 
-### Get All Entries
+#### Get Transcriptions
 
-- **URL**: `/api/projects`
+- **URL**: `/transcriptions`
 - **Method**: `GET`
-- **Description**: Retrieves all project entries.
+- **Description**: Retrieves all transcriptions.
 - **Response**:
-  - `200 OK`: Returns an array of all project entries.
+  - `200 OK`: Returns an array of all transcriptions.
   - `500 Server Error`: Internal server error.
 
-### Get Entry by ID
+## AWS Server
 
-- **URL**: `/api/projects/:id`
-- **Method**: `GET`
-- **Description**: Retrieves a project entry by its ID.
-- **URL Parameters**:
-  - `id`: The unique identifier of the project entry.
-- **Response**:
-  - `200 OK`: Returns the project entry with the specified ID.
-  - `404 Not Found`: Project entry with the specified ID not found.
-  - `500 Server Error`: Internal server error.
+The AWS Server interfaces with AWS services for various functionalities.
 
-## Error Handling
+### Setup
 
-- Error responses are returned in JSON format and include appropriate status codes and error messages.
+1. **Clone Repository**: 
+   - Clone the AWS Server repository to your local machine: `git clone <repository_url>`.
+2. **Navigate to Directory**: 
+   - Navigate to the project directory: `cd <directory_name>`.
+3. **Install Dependencies**: 
+   - Install dependencies by running `npm install`.
+4. **Set Environment Variables**: 
+   - Create a `.env` file based on `.env.example` and provide necessary values.
+5. **Start Server**: 
+   - Start the server by running `npm start`.
 
-## Deployment
+### Endpoints
 
-- The server is deployed on Render and can be accessed at [llamab.onrender.com](https://llamab.onrender.com/).
+Include documentation for the AWS server endpoints here...
 
+### Deployment
 
+- Both servers are deployed on Render and can be accessed at the following URLs:
+  - LLAMA Mongo Server: [llamab.onrender.com](https://llamab.onrender.com/)
+  - AWS Server: [awsserver.onrender.com](https://awsserver.onrender.com/)
