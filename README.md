@@ -1,4 +1,4 @@
-# Llama Server
+# Llama AWS Server
 
 Welcome to the Llama Server repository! This repository contains the code for the AWS server component of my Llama application. The Llama Server handles various backend functionalities such as user authentication, data storage, and API endpoints for my application.
 
