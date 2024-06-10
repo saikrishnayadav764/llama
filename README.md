@@ -10,7 +10,7 @@ Welcome to the Llama Server repository! This repository contains the code for th
 
 ## Deployment
 
-The Llama Server is deployed and hosted on Render. You can access the deployed server at [https://llama-server.onrender.com/](https://llama-server.onrender.com/).
+The Llama AWS Server is deployed and hosted on Render. You can access the deployed server at [https://llama-server.onrender.com/](https://llama-server.onrender.com/).
 
 ## Setup
 
