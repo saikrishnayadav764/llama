@@ -1,0 +1,94 @@
+.container {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .header h2 {
+    color: #7E22CE;
+    margin: 0;
+  }
+  
+  .buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .discard {
+    background-color: #fff;
+    color: #e74c3c;
+    border: 2px solid #e74c3c;
+  }
+  
+  .save {
+    background-color: #2c3e50;
+    color: #fff;
+  }
+  
+  .transcript {
+    position: relative;
+    padding: 20px;
+    border: 2px solid #8e44ad;
+    border-radius: 8px;
+  }
+  
+  .edit-mode {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top:7px;
+    background-color: #444;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .edit-mode button{
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .tcontent {
+    margin-top: 40px;
+    text-align: left;
+    border: none;
+    outline: none;
+  }
+  
+  .speaker{
+    color: #8e44ad;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .tcontent p {
+    text-align: left;
+    margin: 10px 0;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #8e44ad;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  

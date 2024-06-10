@@ -1,0 +1,123 @@
+.homeheader {
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-weight: bolder;
+  color: #7e22ce;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.sitting {
+  width: 300px;
+  top: 278px;
+  left: 690px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.create-btn {
+  background-color: #211935;
+  color: white;
+  border-radius: 7px;
+  padding: 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 20.28px;
+  font-weight: 600;
+}
+
+#plus {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  height: 86vh;
+}
+
+.content-para {
+  color: #838383;
+  font-family: Roboto;
+  text-align: center;
+  width: 700px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.homeplace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  border: 0.75px solid #999999;
+  border-radius: 20px;
+  box-shadow: 18.76px 36.77px 12.01px 0px #00000000;
+  cursor: pointer;
+  width: 120px;
+  padding: px;
+  margin-bottom: 5px;
+  position: absolute;
+  left: 45px;
+  top: 80px;
+  left: 100px;
+  padding: 2.8px;
+}
+
+.homeplace:hover {
+  cursor: pointer;
+}
+
+.homeplace img {
+  width: 17px;
+  margin-right: 4px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.navleft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7e22ce;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.logo {
+  width: 25px;
+  margin-right: 3px;
+}
+
+.setting {
+  width: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.bell {
+  width: 25px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+

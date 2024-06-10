@@ -1,0 +1,560 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+  user-select:none;
+}
+
+.projectBox{
+  display: flex;
+  justify-content: space-between;
+  border: 1.19px solid #999999;
+  width: 290px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.box-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 59px;
+  height: 59px;
+  font-size: 1.7rem;
+  font-weight: bolder;
+  background-color: rgb(126,34,206);
+  color: white;
+  border-radius: 5px;
+}
+
+.box-title{
+  color: #7E22CE;
+  font-weight: bolder;
+}
+
+.box-episodes{
+  font-size: 0.8rem;
+}
+
+
+.box-sub{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.box-edit{
+  font-size: 0.6rem;
+  color: #969696;
+  
+}
+
+.display-top{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.display-top .create-btn{
+  margin-right: 53px;
+}
+
+.display-header{
+  color: #7E22CE;
+
+}
+
+.pboxes{
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 30px;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  column-gap: 70px
+}
+
+.sidenav{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  
+}
+
+.sidenav-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 300px;
+  background-color: rgb(219, 213, 227);
+  padding: 10px;
+}
+
+.navleft{
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  color: #7E22CE;
+}
+
+.navleft img{
+  width: 25px;
+  margin-right: 2px;
+}
+
+.item{
+  width: 260px;
+  padding: 10px;
+  /* background-color: red; */
+  margin-bottom: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  /* background-color: #7E22CE; */
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sidnav-title{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.sidenav-bot{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidenav-bot img{
+  width: 30px;
+  margin-right: 10px;
+}
+
+.num{
+  width: 21px;
+  height: 21px;
+  /* background: black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.main-page{
+  display: flex;
+  height: 100%;
+
+}
+
+.right-part{
+  width: 100%;
+  padding: 10px;
+  padding-left: 40px;
+   height: 100vh; 
+  overflow-y: scroll; 
+}
+
+.right-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-nav-wrap{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.right-nav-left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-nav-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 120px;
+}
+
+.home-icon{
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.country{
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.bell-icon{
+  width: 25px;
+  height: 25px;
+}
+
+.triangle{
+  width: 25px;
+}
+
+.country-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.upload-text{
+  color: #7E22CE;
+  margin-left: 4px;
+  font-weight: 550;
+}
+
+.project-name{
+  color: #999999;
+  
+}
+
+.upload-head{
+  margin-top: 10px;
+  color: #7E22CE;
+  margin-bottom: 10px;
+}
+
+.icons{
+  width: 40px;
+  height: 40px;
+}
+
+.uploadBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1.19px solid #999999;
+  width: 250px;
+  height: 80px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  margin-right: 40px;
+}
+
+.upload-sub{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%;
+  font-weight: bolder;
+}
+
+.uploads{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.middle{
+  text-align: center;
+  margin-right: 150px;
+}
+
+.upload-file{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  height: 160px;
+  padding: 10px;
+  padding-right: 30px;
+  border: 2px solid #999999;
+  border-style: dashed;
+  border-radius: 10px;
+  width: 830px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.upload-img{
+  width: 40px;
+  height: 40px;
+}
+
+.selectFile{
+  background: none;
+  border: 1.5px solid #7E22CE;
+  padding: 10px;
+  border-radius: 20px;
+  width: 120px;
+  color: #7E22CE;
+  cursor: pointer;
+}
+
+.formats{
+  font-size: 0.6rem;
+  color: #00000066;
+  font-weight: bold;
+}
+
+.cnt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.upload-btn{
+  position: absolute;
+  top:5px;
+  right:14px;
+}
+
+.upload-cancel{
+  background: none;
+  border: none;
+}
+
+.upload-cancel img{
+  width: 27px;
+  height: 27px;
+  cursor: pointer;
+  
+}
+
+.social-icons{
+  width: 35px;
+  margin-right: 9px;
+}
+
+.popup-header-wrap{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.popup-header-wrap h1{
+  margin: 0;
+}
+
+.upload-popup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 800px;
+  height: 260px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.uploadPopup-btn{
+  position: absolute;
+  right:18.6px;
+  bottom: 20px;
+
+}
+
+.uploadPopup-btn button{
+  background: none;
+  border: none;
+  color: white;
+  background-color:  #211935;
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.upload-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.upload-table th,
+.upload-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.upload-table th {
+  background-color: #f2f2f2;
+}
+
+.upload-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+
+.tabs-container {
+  font-family: Arial, sans-serif;
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.tab {
+  padding: 10px 2px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-right: 20px;
+}
+
+.tab:hover {
+  background-color: #f0f0f0;
+}
+
+.tab.active {
+  border-bottom: 2px solid blue;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+
+.general-label{
+  font-weight: bolder;
+}
+
+.general-inputs{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+
+  width: 100%;
+}
+
+.general-inputs input{
+  padding: 5px;
+
+}
+
+.general-inputs p{
+  color: #999999;
+  font-size: 0.6rem;
+  margin-top: 2.5px;
+}
+
+.general-inputs label{
+  margin-bottom: 5px;
+}
+
+.diplay-input{
+    margin-right: 70px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.diplay-input p{
+  color: #999999;
+  font-size: 0.6rem;
+  margin-top: 2.5px;
+}
+
+.diplay-input label{
+  font-family: Roboto;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.display-box{
+  display: flex;
+  width: 100%;
+}
+
+.heads{
+  margin-bottom: 5px;
+}
+
+.chat-head{
+  color: #7E22CE;
+  margin-bottom: 20px;
+}
+
+.bot-upload{
+  display: flex;
+  align-items: center;
+  background-color: #7E22CE;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.bot-upload img{
+  width: 20px;
+  margin-bottom: 8px;
+}
+
+.bot-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.reco{
+  color: #999999;
+  font-size: 0.6rem;
+}
+
+.diplay-input input{
+  width: 200px;
+}
+
+.tedit, .tdelete{
+  background: none;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #969696;
+}
+
+.tedit{
+  border-right: 0.5px;
+}
+
+.tdelete{
+  border-left:"none";
+  color: red;
+  font-weight: bolder;
+}
+
+.refresh-button{
+  background: none;
+  border: none;
+  color: white;
+  background-color:  #211935;
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
