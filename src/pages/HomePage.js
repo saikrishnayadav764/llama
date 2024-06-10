@@ -18,7 +18,7 @@ function HomePage() {
     <div className="HomePage">
       <NavBar/>
       <div className="content">
-        <h1 className="homeheader">Create a New Project</h1>
+        <h1 className="homeheaderh">Create a New Project</h1>
           {/* <img draggable="false" className="sitting" src="./sitting.png" alt="sitting" /> */}
           <svg
           width="300"
