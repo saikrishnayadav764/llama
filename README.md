@@ -1,6 +1,4 @@
-Certainly! Below is a well-structured README file for your LLAMA Mongo server:
 
----
 
 # LLAMA Mongo Server
 
@@ -80,6 +78,4 @@ Welcome to the LLAMA Mongo Server! This server provides backend functionality fo
 
 - The server is deployed on Render and can be accessed at [llamab.onrender.com](https://llamab.onrender.com/).
 
----
 
-Feel free to customize this README file further based on your specific requirements and additional features of your LLAMA Mongo server.
