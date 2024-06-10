@@ -1,6 +1,6 @@
 # Llama Server
 
-Welcome to the Llama Server repository! This repository contains the code for the AWS server component of our Llama application. The Llama Server handles various backend functionalities such as user authentication, data storage, and API endpoints for our application.
+Welcome to the Llama Server repository! This repository contains the code for the AWS server component of my Llama application. The Llama Server handles various backend functionalities such as user authentication, data storage, and API endpoints for my application.
 
 ## Features
 
@@ -46,7 +46,7 @@ To set up the Llama Server locally, follow these steps:
 
 ## Contributing
 
-We welcome contributions from the community! If you'd like to contribute to the Llama Server, please fork the repository, make your changes, and submit a pull request.
+We welcome contributions from the community! If you'd like to contribute to the Llama Server, please fork the repository, make ymy changes, and submit a pull request.
 
 ## License
 
@@ -56,12 +56,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 # Llama Mongo Server
 
-Welcome to the Llama Mongo Server repository! This repository contains the code for the MongoDB server component of our Llama application. The Llama Mongo Server is responsible for managing our database operations and data storage.
+Welcome to the Llama Mongo Server repository! This repository contains the code for the MongoDB server component of my Llama application. The Llama Mongo Server is responsible for managing my database operations and data storage.
 
 ## Features
 
 - MongoDB integration: Utilizes MongoDB for efficient and scalable data storage.
-- Data management: Handles CRUD operations and data querying to support the functionality of our application.
+- Data management: Handles CRUD operations and data querying to support the functionality of my application.
 
 ## Deployment
 
