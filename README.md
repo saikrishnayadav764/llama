@@ -44,15 +44,6 @@ To set up the Llama Server locally, follow these steps:
    npm start
    ```
 
-## Contributing
-
-We welcome contributions from the community! If you'd like to contribute to the Llama Server, please fork the repository, make ymy changes, and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 # Llama Mongo Server
 
